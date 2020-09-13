@@ -1,6 +1,6 @@
-#Myanmar Post Code
+# Myanmar Post Code
 
-###GET By Post Office
+### GET By Post Office
 `GET localhost:8899/api/v1/postoffice/{postoffice}`
 ```
 [
@@ -51,7 +51,7 @@
     }
 ]
 ```
-###GET By Township
+### GET By Township
 `GET localhost:8899/api/v1/township/{township}`
 ```
 [
