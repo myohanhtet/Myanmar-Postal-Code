@@ -48,6 +48,10 @@ public class PostalCode {
     @Column(name = "Remark")
     private String remark;
 
+    public PostalCode(){
+
+    }
+
     public PostalCode(String stateRegion, String stateReqionMya, String srPCode, String district, String districtMya, String DPcode, String township, String townshipMya, String tSPcode, String place, String postCode, String remark) {
         this.stateRegion = stateRegion;
         this.stateReqionMya = stateReqionMya;
